@@ -17,7 +17,7 @@ export class AboutComponent implements OnInit {
 
   public ngOnInit(): void {
     this.members = new Array<TeamMember>();
-    const anoir: TeamMember = {fullName: "Anoir Boujja", matricule: "1865979", profilePictureURL: ANOIR_URL};
+    const anoir: TeamMember = {fullName: "Anwar Boujja", matricule: "9999999", profilePictureURL: ANOIR_URL};
     this.members.push(anoir);
     const thomas: TeamMember = {fullName: "Thomas Camiré", matricule: "1897784", profilePictureURL: THOMAS_URL};
     this.members.push(thomas);
